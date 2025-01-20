@@ -1,0 +1,6 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=XGridWM
+Comment=XCB Grid Window Manager
+Exec=xgridwm-session
+Type=XSession

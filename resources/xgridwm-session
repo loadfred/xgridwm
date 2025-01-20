@@ -1,0 +1,9 @@
+#!/bin/sh
+
+pkill pipewire
+pipewire &
+
+xset b off
+xrdb ~/.Xresources
+
+exec dbus-launch --sh-syntax --exit-with-session xgridwm
